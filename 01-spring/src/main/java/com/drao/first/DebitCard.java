@@ -2,9 +2,9 @@ package com.drao.first;
 
 public class DebitCard implements Ipay{
 	
-	public DebitCard() {
+	public DebitCard() {// Constructor used to show Debit Card object is created by Spring Frame work
 		
-		System.out.println("DC Obj is created by Spring Frame Work");		
+		System.out.println("Debit Card Obj is created by Spring Frame Work");		
 		
 	}
 	

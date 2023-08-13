@@ -2,9 +2,9 @@ package com.drao.first;
 
 public class CreditCard implements Ipay{
 	
-	public CreditCard() {
+	public CreditCard() { // Constructor used just to show Credit Card object is created by Spring Framework.
 		
-		System.out.println("CC Obj is created by Spring Frame Work");		
+		System.out.println("Credit Card Obj is created by Spring Frame Work");		
 		
 	}
 	

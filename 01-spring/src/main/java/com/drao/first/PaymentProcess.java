@@ -26,7 +26,6 @@ public class PaymentProcess {
 		
 		else
 			
-			System.out.println("Payment failed");
-		
+			System.out.println("Payment failed");		
 	}
 }
