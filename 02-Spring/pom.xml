@@ -3,4 +3,14 @@
   <groupId>com.drao</groupId>
   <artifactId>02-Spring</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies> 
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.3.14</version>
+</dependency>
+</dependencies>  
+  
+  
 </project>
