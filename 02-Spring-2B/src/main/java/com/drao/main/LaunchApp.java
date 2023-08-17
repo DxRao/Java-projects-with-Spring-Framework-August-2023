@@ -16,19 +16,15 @@ public class LaunchApp {
 		sp.storeInDb(); 
 		
 	}
+
 }
 
- /* OUTPUT:
-  * 
+/* OUTPUT:
+  
 DAO obj is being created
 Service Provider Obj is being created
 Sending Email obj is being created
 Data saved in database
-Operation successful
- 
-  
-  */
-  
-
+Operation successful  
 
 */
