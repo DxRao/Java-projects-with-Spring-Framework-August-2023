@@ -10,5 +10,12 @@ public class DAO {
 		System.out.println("DAO obj is being created");
 		
 	}
+	
+	public boolean save() {
+		
+		System.out.println("Data saved in database");
+		
+		return true;
+	}
 
 }

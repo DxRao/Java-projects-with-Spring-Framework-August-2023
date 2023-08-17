@@ -1,10 +1,9 @@
 package com.drao.main;
 
 import org.springframework.context.ApplicationContext;
-
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 import com.drao.dao.DAO;
+import com.drao.service.ServiceProvider;
 
 public class LaunchApp {
 
@@ -12,16 +11,24 @@ public class LaunchApp {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		
-		// context.getBean(DAO.class);
-
+		ServiceProvider sp = context.getBean(ServiceProvider.class);
+		
+		sp.storeInDb(); 
+		
 	}
-
 }
 
  /* OUTPUT:
-  
+  * 
 DAO obj is being created
 Service Provider Obj is being created
 Sending Email obj is being created
+Data saved in database
+Operation successful
+ 
+  
+  */
+  
+
 
 */
