@@ -25,6 +25,15 @@ DAO obj is being created
 Service Provider Obj is being created
 Sending Email obj is being created
 Data saved in database
-Operation successful  
+Operation successful 
+ 
+/////////////////////
+
+DAO obj is being created
+Service Provider Obj is being created
+Spring Boot is much easier to work
+Data saved in database
+Operation successful
+
 
 */
